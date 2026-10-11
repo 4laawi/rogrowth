@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  --font-dm-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+  --font-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+  --font-hanken: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  --font-jakarta: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+
+  --color-growth-deep: #047857;
+  --color-growth-light: #ecfdf5;
+  --color-growth-primary: #006c49;
+  --color-growth-emerald: #10b981;
+  --color-growth-dark: #0b132b;
+  --color-growth-slate: #0f172a;
+  --color-growth-navy: #150773;
+  --color-text-display: #090d16;
+  --color-text-muted: #64748b;
+  --color-border-subtle: #e2e8f0;
+  --color-accent-amber: #f59e0b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    color: #0f172a;
+    background-color: #ffffff;
+    font-family: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Titles: Poppins ExtraBold */
+  h1, h2 {
+    font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+    font-weight: 800;
+  }
+
+  /* Smaller titles: Poppins Regular */
+  h3, h4, h5, h6 {
+    font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+  }
+}
+
+.text-9pt {
+  font-size: 12px;
+  line-height: 1.5;
+}
