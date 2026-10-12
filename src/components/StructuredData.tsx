@@ -15,8 +15,7 @@ export function StructuredData() {
     "areaServed": {
       "@type": "Country",
       "name": "România"
-    },
-    "sameAs": []
+    }
   };
 
   const webSiteSchema = {

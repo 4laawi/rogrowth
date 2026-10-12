@@ -26,6 +26,24 @@ export const metadata: Metadata = {
     description:
       "Ajutăm companiile din România să-și construiască o prezență digitală puternică și profitabilă. Dezvoltare web, e-commerce, SEO și suport tehnic transparent.",
     url: "https://rogrowth.ro",
+    siteName: "RoGrowth",
+    locale: "ro_RO",
+    type: "website",
+    images: [
+      {
+        url: "https://rogrowth.ro/rogrowth-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "RoGrowth — Agenție Digitală & Soluții Web România",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RoGrowth — Agenție Digitală & Soluții Web România",
+    description:
+      "Ajutăm companiile din România să-și construiască o prezență digitală puternică și profitabilă.",
+    images: ["https://rogrowth.ro/rogrowth-logo.png"],
   },
 };
 

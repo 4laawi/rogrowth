@@ -56,31 +56,32 @@ export function QuoteCtaSection() {
 
   return (
     <section className="py-20 lg:py-28 bg-[#fafafa] border-t border-slate-200/80" id="contact-rapid">
+      <div id="solicita-oferta" className="scroll-mt-24" />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Single Unified Minimalist Card */}
-        <div className="bg-white rounded-[32px] sm:rounded-[40px] p-8 sm:p-12 lg:p-16 border border-slate-200/90 shadow-[0_20px_60px_rgba(21,7,115,0.05)]">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="bg-white rounded-2xl sm:rounded-[32px] lg:rounded-[40px] p-5 sm:p-10 lg:p-16 border border-slate-200/90 shadow-[0_20px_60px_rgba(21,7,115,0.05)]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 items-start">
             
             {/* Left Column: Direct Info & Editorial Headings */}
-            <div className="lg:col-span-5 flex flex-col justify-between h-full gap-8">
-              <div className="flex flex-col gap-4">
+            <div className="lg:col-span-5 flex flex-col justify-between h-full gap-6 sm:gap-8">
+              <div className="flex flex-col gap-3 sm:gap-4">
                 <span className="text-xs font-bold tracking-[0.16em] text-[#150773] uppercase font-poppins">
                   CONTACT RAPID
                 </span>
-                <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-[#150773] tracking-tight font-poppins leading-[1.15]">
+                <h2 className="text-2xl sm:text-3xl lg:text-[40px] font-extrabold text-[#150773] tracking-tight font-poppins leading-[1.18] sm:leading-[1.15]">
                   Hai să vorbim despre proiectul tău.
                 </h2>
-                <p className="text-base text-slate-600 font-sans leading-relaxed">
+                <p className="text-sm sm:text-base text-slate-600 font-sans leading-relaxed">
                   Răspundem în maximum 24 de ore cu o estimare de preț și o structură recomandată, fără obligații.
                 </p>
               </div>
 
               {/* Minimalist Contact Info */}
-              <div className="flex flex-col gap-4 text-sm sm:text-base font-sans border-t border-slate-100 pt-6">
+              <div className="flex flex-col gap-3 sm:gap-4 text-sm sm:text-base font-sans border-t border-slate-100 pt-5 sm:pt-6">
                 <a
                   href="mailto:contact@rogrowth.ro"
-                  className="inline-flex items-center gap-3 text-slate-800 hover:text-[#150773] font-medium transition-colors"
+                  className="inline-flex items-center gap-3 text-slate-800 hover:text-[#150773] font-medium transition-colors min-h-[44px]"
                 >
                   <span className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-[#150773] shrink-0 text-sm">
                     ✉
@@ -90,7 +91,7 @@ export function QuoteCtaSection() {
 
                 <a
                   href="tel:+40724646646"
-                  className="inline-flex items-center gap-3 text-slate-800 hover:text-emerald-600 font-medium transition-colors"
+                  className="inline-flex items-center gap-3 text-slate-800 hover:text-emerald-600 font-medium transition-colors min-h-[44px]"
                 >
                   <span className="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 text-sm">
                     📞
@@ -98,7 +99,7 @@ export function QuoteCtaSection() {
                   <span>0724 646 646 (WhatsApp &amp; Apel)</span>
                 </a>
 
-                <div className="inline-flex items-center gap-3 text-slate-500 text-xs sm:text-sm">
+                <div className="inline-flex items-center gap-3 text-slate-500 text-xs sm:text-sm min-h-[44px]">
                   <span className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-400 shrink-0 text-xs">
                     📍
                   </span>
@@ -107,7 +108,7 @@ export function QuoteCtaSection() {
               </div>
 
               {/* Discrete Guarantees */}
-              <div className="flex flex-col gap-2 text-xs sm:text-sm text-slate-500 font-sans border-t border-slate-100 pt-6">
+              <div className="flex flex-col gap-2 text-xs sm:text-sm text-slate-500 font-sans border-t border-slate-100 pt-5 sm:pt-6">
                 <div className="flex items-center gap-2">
                   <span className="text-emerald-500 font-bold">✓</span>
                   <span>Răspuns transparent în max. 24h</span>
@@ -127,14 +128,14 @@ export function QuoteCtaSection() {
             <div className="lg:col-span-7">
               {submitted ? (
                 /* Success State */
-                <div className="flex flex-col items-center justify-center text-center py-14 px-4 gap-4 bg-emerald-50/70 rounded-3xl border border-emerald-200">
-                  <div className="w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-2xl font-bold shadow-md shadow-emerald-500/20">
+                <div className="flex flex-col items-center justify-center text-center py-10 sm:py-14 px-4 gap-4 bg-emerald-50/70 rounded-2xl sm:rounded-3xl border border-emerald-200">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xl sm:text-2xl font-bold shadow-md shadow-emerald-500/20">
                     ✓
                   </div>
-                  <h3 className="text-2xl font-bold text-slate-900 font-poppins">
+                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-poppins">
                     Mulțumim pentru mesaj!
                   </h3>
-                  <p className="text-sm sm:text-base text-slate-600 max-w-sm font-sans">
+                  <p className="text-xs sm:text-sm lg:text-base text-slate-600 max-w-sm font-sans">
                     Am recepționat detaliile. Revenim cu un răspuns în maximum 24 de ore.
                   </p>
                   <button
@@ -150,14 +151,14 @@ export function QuoteCtaSection() {
                         gdpr: false,
                       });
                     }}
-                    className="mt-2 px-6 py-2 rounded-full border border-slate-300 text-xs font-semibold text-slate-700 hover:bg-white transition-all cursor-pointer"
+                    className="mt-2 px-6 py-2.5 rounded-full border border-slate-300 text-xs sm:text-sm font-semibold text-slate-700 hover:bg-white transition-all cursor-pointer min-h-[44px]"
                   >
                     Trimite alt mesaj
                   </button>
                 </div>
               ) : (
                 /* Form */
-                <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+                <form onSubmit={handleSubmit} className="flex flex-col gap-5 sm:gap-6">
                   
                   {/* Project Type Chips */}
                   <div className="flex flex-col gap-2">
@@ -172,7 +173,7 @@ export function QuoteCtaSection() {
                             key={type.id}
                             type="button"
                             onClick={() => setFormData({ ...formData, projectType: type.id })}
-                            className={`px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all cursor-pointer border ${
+                            className={`px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all cursor-pointer border min-h-[38px] flex items-center justify-center ${
                               isSelected
                                 ? "bg-[#150773] text-white border-[#150773]"
                                 : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
@@ -186,7 +187,7 @@ export function QuoteCtaSection() {
                   </div>
 
                   {/* Input Fields: Name & Phone */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 pt-1 sm:pt-2">
                     <div className="flex flex-col gap-1.5">
                       <label htmlFor="name" className="text-xs sm:text-sm font-bold text-slate-800 font-sans">
                         Nume <span className="text-red-500">*</span>
@@ -198,7 +199,7 @@ export function QuoteCtaSection() {
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         placeholder="Numele tău"
-                        className="w-full px-3 py-2 text-sm sm:text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors font-sans"
+                        className="w-full px-3 py-2.5 text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors font-sans"
                       />
                     </div>
 
@@ -213,7 +214,7 @@ export function QuoteCtaSection() {
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="07xx xxx xxx"
-                        className="w-full px-3 py-2 text-sm sm:text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors font-sans"
+                        className="w-full px-3 py-2.5 text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors font-sans"
                       />
                     </div>
                   </div>
@@ -229,7 +230,7 @@ export function QuoteCtaSection() {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       placeholder="adresa@email.ro"
-                      className="w-full px-3 py-2 text-sm sm:text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors font-sans"
+                      className="w-full px-3 py-2.5 text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors font-sans"
                     />
                   </div>
 
@@ -244,7 +245,7 @@ export function QuoteCtaSection() {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       placeholder="Câteva cuvinte despre ce ai dori să realizezi..."
-                      className="w-full px-3 py-2 text-sm sm:text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors resize-none font-sans"
+                      className="w-full px-3 py-2.5 text-base text-slate-800 placeholder-slate-400 bg-transparent border-b-2 border-slate-200 hover:border-slate-300 focus:border-[#150773] focus:outline-none transition-colors resize-none font-sans"
                     ></textarea>
                   </div>
 
@@ -256,7 +257,7 @@ export function QuoteCtaSection() {
                         required
                         checked={formData.gdpr}
                         onChange={(e) => setFormData({ ...formData, gdpr: e.target.checked })}
-                        className="mt-1 w-4 h-4 rounded border-slate-300 text-[#150773] focus:ring-[#150773] shrink-0 cursor-pointer accent-[#150773]"
+                        className="mt-0.5 sm:mt-1 w-4 h-4 rounded border-slate-300 text-[#150773] focus:ring-[#150773] shrink-0 cursor-pointer accent-[#150773]"
                       />
                       <span className="text-xs text-slate-600 leading-relaxed font-sans">
                         Sunt de acord cu prelucrarea datelor mele pentru primirea ofertei conform{" "}
@@ -277,7 +278,7 @@ export function QuoteCtaSection() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="group inline-flex items-center justify-center gap-3 px-8 py-3.5 sm:py-4 rounded-full bg-[#150773] hover:bg-[#1c0b94] disabled:opacity-70 disabled:cursor-not-allowed active:scale-[0.98] text-white font-bold text-sm sm:text-base tracking-wider uppercase shadow-md shadow-[#150773]/20 transition-all cursor-pointer font-poppins"
+                      className="w-full sm:w-auto group inline-flex items-center justify-center gap-3 px-8 py-3.5 sm:py-4 rounded-full bg-[#150773] hover:bg-[#1c0b94] disabled:opacity-70 disabled:cursor-not-allowed active:scale-[0.98] text-white font-bold text-sm sm:text-base tracking-wider uppercase shadow-md shadow-[#150773]/20 transition-all cursor-pointer font-poppins min-h-[48px]"
                     >
                       <span>{isSubmitting ? "SE TRIMITE..." : "VREAU SĂ DISCUTĂM"}</span>
                       <svg

@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://lh3.googleusercontent.com/aida-public/AB6AXuDFQApxSBuPmvrVNftzS-FFiwgTDsO-QM6MSUZlXd3a6W7_thcmNMz6d9fkxQRgilIv-POI6_IJ9RYgCGr6h7TRmtZsDQS0iJDWRoDE-kMerrkzvOYu_SmwVE7gPdMTI9QErTIn4TTqZgxi_OmqshXgaQFBLDlS4MM9KvZ6d6svS2uViJ2yn7iAF64kC8rujsadoVg1N2Cu0lOYX9ez5Wqh6AQOzc3JH87tEttylZxF-pcWPW3uT3wmNTVNIF9TlzMsoKQ",
+        url: "https://rogrowth.ro/rogrowth-logo.png",
         width: 1200,
         height: 630,
         alt: "RoGrowth Digital Agency",
@@ -66,9 +66,7 @@ export const metadata: Metadata = {
     title: "RoGrowth — Creare Site-uri Web & Agenție Digital Marketing România",
     description:
       "Website-uri rapide, optimizate pentru motoare de căutare și vânzări reale pentru afaceri din România.",
-    images: [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDFQApxSBuPmvrVNftzS-FFiwgTDsO-QM6MSUZlXd3a6W7_thcmNMz6d9fkxQRgilIv-POI6_IJ9RYgCGr6h7TRmtZsDQS0iJDWRoDE-kMerrkzvOYu_SmwVE7gPdMTI9QErTIn4TTqZgxi_OmqshXgaQFBLDlS4MM9KvZ6d6svS2uViJ2yn7iAF64kC8rujsadoVg1N2Cu0lOYX9ez5Wqh6AQOzc3JH87tEttylZxF-pcWPW3uT3wmNTVNIF9TlzMsoKQ",
-    ],
+    images: ["https://rogrowth.ro/rogrowth-logo.png"],
   },
   robots: {
     index: true,

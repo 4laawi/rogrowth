@@ -16,7 +16,7 @@ export function EcommercePricingSection() {
         "Fundație tehnică SEO",
       ],
       ctaText: "Alege Start",
-      ctaHref: "#solicita-oferta",
+      ctaHref: "#contact-rapid",
     },
     {
       name: "E-Commerce Pro",
@@ -32,7 +32,7 @@ export function EcommercePricingSection() {
         "Meta CAPI & GA4 Server-Side",
       ],
       ctaText: "Alege Pro",
-      ctaHref: "#solicita-oferta",
+      ctaHref: "#contact-rapid",
     },
     {
       name: "E-Commerce Custom",
@@ -48,7 +48,7 @@ export function EcommercePricingSection() {
         "Suport tehnic prioritar",
       ],
       ctaText: "Solicită ofertă Custom",
-      ctaHref: "#solicita-oferta",
+      ctaHref: "#contact-rapid",
     },
   ];
 

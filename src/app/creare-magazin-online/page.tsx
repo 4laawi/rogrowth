@@ -14,26 +14,35 @@ import { QuoteCtaSection } from "@/components/sections/QuoteCtaSection";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Creare Magazin Online Profesional (Shopify & WooCommerce) | RoGrowth",
+  title: "Creare Magazin Online Profesional (Shopify & WooCommerce)",
   description:
     "Dezvoltare magazine online rapide pe Shopify și WooCommerce în România. Integrări automate Sameday Easybox, Fan Courier, Netopia & Stripe. Viteză pe mobil și proprietate 100%.",
   alternates: {
     canonical: "/creare-magazin-online",
   },
   openGraph: {
-    title: "Creare Magazin Online Profesional (Shopify & WooCommerce) | RoGrowth",
+    title: "Creare Magazin Online Profesional (Shopify & WooCommerce)",
     description:
       "Construim magazine online de înaltă conversie pentru afaceri din România. Integrări curieri, plăți securizate cu cardul, AWB automat și optimizare SEO.",
     url: "https://rogrowth.ro/creare-magazin-online",
     siteName: "RoGrowth",
     locale: "ro_RO",
     type: "website",
+    images: [
+      {
+        url: "https://rogrowth.ro/rogrowth-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Creare Magazin Online Profesional — RoGrowth",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Creare Magazin Online Profesional | RoGrowth România",
+    title: "Creare Magazin Online Profesional (Shopify & WooCommerce)",
     description:
       "Magazine online rapide pe Shopify și WooCommerce: integrări Sameday Easybox, Fan Courier, plăți securizate și conversii ridicate pe mobil.",
+    images: ["https://rogrowth.ro/rogrowth-logo.png"],
   },
 };
 

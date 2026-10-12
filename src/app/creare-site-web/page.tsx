@@ -16,17 +16,35 @@ import { QuoteCtaSection } from "@/components/sections/QuoteCtaSection";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Creare Site Web Profesional & Magazine Online | RoGrowth România",
+  title: "Creare Site Web Profesional & Magazine Online",
   description:
     "Servicii complete de creare site web profesional, magazine online și platforme rapide în România. Viteză pe mobil, optimizare SEO tehnică și proprietate 100%.",
   alternates: {
     canonical: "/creare-site-web",
   },
   openGraph: {
-    title: "Creare Site Web Profesional & Magazine Online | RoGrowth România",
+    title: "Creare Site Web Profesional & Magazine Online",
     description:
       "Construim website-uri rapide, sigure și optimizate pentru conversie pe Google pentru afaceri din România. Fără costuri ascunse.",
     url: "https://rogrowth.ro/creare-site-web",
+    siteName: "RoGrowth",
+    locale: "ro_RO",
+    type: "website",
+    images: [
+      {
+        url: "https://rogrowth.ro/rogrowth-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Creare Site Web Profesional — RoGrowth",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Creare Site Web Profesional & Magazine Online",
+    description:
+      "Construim website-uri rapide, sigure și optimizate pentru conversie pe Google pentru afaceri din România.",
+    images: ["https://rogrowth.ro/rogrowth-logo.png"],
   },
 };
 

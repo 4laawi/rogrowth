@@ -124,7 +124,7 @@ export function EcommercePlatformsSection() {
           <p className="text-base text-slate-700 font-sans">
             Nu ești sigur?{" "}
             <Link
-              href="#solicita-oferta"
+              href="#contact-rapid"
               className="text-[#150773] hover:text-emerald-700 underline underline-offset-4 decoration-slate-300 hover:decoration-emerald-600 transition-colors font-semibold"
             >
               Hai să discutăm gratuit →

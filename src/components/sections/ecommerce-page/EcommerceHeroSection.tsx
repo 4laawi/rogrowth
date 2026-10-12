@@ -67,7 +67,7 @@ export function EcommerceHeroSection() {
             {/* Dual Clean Pill CTAs: Emerald Primary + Crisp White Secondary */}
             <div className="pt-1 sm:pt-2 flex flex-wrap items-center gap-4">
               <Link
-                href="#solicita-oferta"
+                href="#contact-rapid"
                 className="inline-flex items-center justify-center px-8 sm:px-9 py-3.5 sm:py-4 rounded-full bg-[#2bb673] hover:bg-[#239960] text-[#070c2a] font-bold text-sm sm:text-base shadow-[0_10px_30px_rgba(43,182,115,0.28)] hover:shadow-[0_15px_35px_rgba(43,182,115,0.38)] transition-all active:scale-95"
               >
                 Solicită ofertă magazin online

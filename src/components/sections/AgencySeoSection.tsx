@@ -4,26 +4,26 @@ export function AgencySeoSection() {
   return (
     <section className="py-20 lg:py-28 bg-slate-50/70 border-t border-slate-100" id="filosofie-seo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center">
           {/* Left Column: Philosophical stand */}
-          <div className="lg:col-span-6 flex flex-col gap-6">
-            <span className="text-sm font-semibold tracking-wider text-[#5243aa] uppercase font-poppins">
+          <div className="lg:col-span-6 flex flex-col gap-4 sm:gap-6">
+            <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase font-poppins inline-block">
               TRANSPARENȚĂ &amp; REALITATE GOOGLE
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-[40px] leading-tight lg:leading-[48px] font-extrabold text-[#150773] tracking-tight font-poppins">
               SEO fără iluzii:{" "}
               <span className="text-[#10b981]">fundație tehnică sănătoasă</span> pentru vizibilitate reală
             </h2>
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
+            <p className="text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed font-sans">
               Algoritmii Google nu pot fi cumpărați sau manipulați pe termen lung. Refuzăm să promitem „locul 1 garantat”, dar garantăm o construcție tehnică impecabilă: cod rapid, meta-date semantice, sitemap și conectare Search Console.
             </p>
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
+            <p className="text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed font-sans">
               <strong>Principiul RoGrowth:</strong> SEO-ul nu se termină în ziua lansării. Un website devine o investiție profitabilă atunci când este optimizat constant cu conținut util, structură clară și monitorizare tehnică.
             </p>
-            <div>
+            <div className="pt-1">
               <Link
                 href="/creare-site-web#seo-transparenta"
-                className="inline-flex items-center gap-2 text-sm sm:text-base font-bold text-[#150773] hover:text-emerald-600 underline underline-offset-4 transition-colors"
+                className="inline-flex items-center gap-2 text-xs sm:text-sm lg:text-base font-bold text-[#150773] hover:text-emerald-600 underline underline-offset-4 transition-colors min-h-[44px]"
               >
                 Vezi ce include fundația SEO la realizarea site-ului →
               </Link>
@@ -32,13 +32,13 @@ export function AgencySeoSection() {
 
           {/* Right Column: Key Pillars */}
           <div className="lg:col-span-6 flex flex-col gap-4">
-            <div className="p-8 rounded-3xl bg-white border border-slate-200 shadow-xs flex flex-col gap-5">
-              <h3 className="text-lg sm:text-xl font-bold text-slate-900 font-poppins flex items-center gap-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
-                Cum abordăm vizibilitatea pe Google la RoGrowth:
+            <div className="p-5 sm:p-7 lg:p-8 rounded-2xl sm:rounded-3xl bg-white border border-slate-200 shadow-xs flex flex-col gap-4 sm:gap-5">
+              <h3 className="text-base sm:text-lg lg:text-xl font-bold text-slate-900 font-poppins flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shrink-0"></span>
+                <span>Cum abordăm vizibilitatea pe Google la RoGrowth:</span>
               </h3>
 
-              <div className="flex flex-col gap-4 text-sm sm:text-base text-slate-700 font-sans">
+              <div className="flex flex-col gap-3.5 sm:gap-4 text-xs sm:text-sm lg:text-base text-slate-700 font-sans">
                 <div className="flex items-start gap-3">
                   <div className="w-7 h-7 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                     1

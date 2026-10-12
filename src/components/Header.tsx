@@ -15,8 +15,9 @@ export function Header() {
       const hero = document.getElementById("hero-section");
       if (hero) {
         const rect = hero.getBoundingClientRect();
-        // 96px matches the header height on desktop (h-24)
-        setIsScrolled(rect.bottom <= 96);
+        // 64px on mobile, 96px on desktop
+        const threshold = window.innerWidth < 640 ? 64 : 96;
+        setIsScrolled(rect.bottom <= threshold);
       } else {
         setIsScrolled(window.scrollY > 480);
       }
@@ -35,7 +36,7 @@ export function Header() {
           : "bg-transparent border-b border-transparent"
       }`}
     >
-      <div className="h-20 sm:h-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-5 sm:gap-6">
+      <div className="h-16 sm:h-20 lg:h-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 sm:gap-6">
         {/* Brand Logo */}
         <Link href="/" className="flex items-center group" aria-label="RoGrowth.ro - Acasă">
           <Image
@@ -43,7 +44,7 @@ export function Header() {
             alt="RoGrowth.ro"
             width={240}
             height={70}
-            className="h-12 sm:h-15 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-9 sm:h-12 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
             priority
           />
         </Link>

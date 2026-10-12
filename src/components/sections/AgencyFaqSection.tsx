@@ -26,37 +26,54 @@ export function AgencyFaqSection() {
     },
   ];
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a,
+      },
+    })),
+  };
+
   return (
     <section className="py-20 lg:py-28 bg-white border-t border-slate-100" id="faq">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <span className="text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-4 font-poppins">
+        <div className="text-center mb-10 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-2.5 sm:mb-4 font-poppins inline-block">
             RĂSPUNSURI TRANSPARENTE
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-[40px] leading-tight lg:leading-[48px] font-extrabold text-[#150773] tracking-tight font-poppins">
             Întrebări frecvente despre{" "}
             <span className="text-[#10b981]">agenție și colaborare</span>
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
+          <p className="mt-3.5 sm:mt-4 text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed font-sans">
             Găsești aici răspunsuri directe la cele mai importante întrebări despre serviciile și principiile noastre de lucru.
           </p>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3.5 sm:gap-4">
           {faqs.map((faq, index) => (
             <details
               key={index}
-              className="group rounded-[24px] bg-white border border-slate-200/80 p-6 sm:p-7 transition-all duration-200 open:shadow-[0_4px_25px_-5px_rgba(0,0,0,0.06)] open:border-emerald-300"
+              className="group rounded-2xl sm:rounded-[24px] bg-white border border-slate-200/80 p-5 sm:p-7 transition-all duration-200 open:shadow-[0_4px_25px_-5px_rgba(0,0,0,0.06)] open:border-emerald-300"
             >
-              <summary className="flex items-center justify-between gap-4 font-bold text-lg sm:text-xl text-[#150773] cursor-pointer list-none select-none font-poppins">
-                <span>{faq.q}</span>
-                <span className="shrink-0 w-8 h-8 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:bg-emerald-50 group-open:text-emerald-700 group-open:border-emerald-200 transition-transform">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <summary className="flex items-center justify-between gap-3 sm:gap-4 font-bold text-base sm:text-xl text-[#150773] cursor-pointer list-none select-none font-poppins min-h-[44px]">
+                <span className="leading-snug">{faq.q}</span>
+                <span className="shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:bg-emerald-50 group-open:text-emerald-700 group-open:border-emerald-200 transition-transform">
+                  <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </span>
               </summary>
-              <div className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed border-t border-slate-100 pt-3 font-sans">
+              <div className="mt-3.5 sm:mt-4 text-xs sm:text-sm lg:text-base text-slate-600 leading-relaxed border-t border-slate-100 pt-3 font-sans">
                 <p>{faq.a}</p>
               </div>
             </details>

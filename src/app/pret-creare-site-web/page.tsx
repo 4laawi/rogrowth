@@ -12,26 +12,35 @@ import { QuoteCtaSection } from "@/components/sections/QuoteCtaSection";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Preț Creare Site Web în România: Costuri Reale în 2026 | RoGrowth",
+  title: "Preț Creare Site Web în România: Costuri Reale în 2026",
   description:
     "Află cât costă crearea unui site web profesional în România în 2026. Ghid complet și transparent de prețuri: site de prezentare (€300–€400), lead generation (€700–€1.200) și magazine online (€1.000–€2.300+).",
   alternates: {
     canonical: "/pret-creare-site-web",
   },
   openGraph: {
-    title: "Preț Creare Site Web în România: Costuri Reale în 2026 | RoGrowth",
+    title: "Preț Creare Site Web în România: Costuri Reale în 2026",
     description:
       "Ghid transparent de costuri pentru dezvoltare web în România: site de prezentare, lead generation, magazine online și aplicații custom. Fără costuri ascunse.",
     url: "https://rogrowth.ro/pret-creare-site-web",
     siteName: "RoGrowth",
     locale: "ro_RO",
     type: "article",
+    images: [
+      {
+        url: "https://rogrowth.ro/rogrowth-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Preț Creare Site Web în România 2026 — RoGrowth",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Preț Creare Site Web în România: Costuri Reale în 2026 | RoGrowth",
+    title: "Preț Creare Site Web în România: Costuri Reale în 2026",
     description:
       "Ghid transparent de costuri pentru dezvoltare web în România: site de prezentare, lead generation, magazine online și aplicații custom.",
+    images: ["https://rogrowth.ro/rogrowth-logo.png"],
   },
 };
 
@@ -85,77 +94,6 @@ export default function PretCreareSiteWebPage() {
     "mainEntityOfPage": "https://rogrowth.ro/pret-creare-site-web",
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "De ce variază prețurile atât de mult de la o agenție la alta în România?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Diferența majoră vine din timpul efectiv alocat, calitatea codului și experiența echipei. Un site foarte ieftin (ex. 100–150€) este de regulă un șablon descărcat de pe internet cu viteză slabă pe mobil. Un site profesional (€300–€1.200+) implică structură de conversie, design personalizat pe brand, cod curat, teste de viteză și indexare pe Google.",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "Cât costă întreținerea lunară (mentenanța) a unui site web?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Website-ul dezvoltat de RoGrowth poate funcționa fără costuri obligatorii către agenție dacă nu ai nevoie de modificări lunare. Pentru securitate continuă, backup-uri regulate și actualizări de conținut, oferim pachete flexibile de mentenanță.",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "Există costuri ascunse după ce plătesc realizarea site-ului?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Nu. La RoGrowth lucrăm pe bază de preț fix agreat în contract. Singurele costuri externe obligatorii sunt cele către furnizorii terți pe care îi deții direct: numele de domeniu (ex. .ro ~30-40€) și găzduirea web (de la 5–15€/lună).",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "Pot începe cu un site de €300–€400 și să-l dezvolt ulterior într-un magazin online?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Da, absolut. Construim fiecare website cu o arhitectură curată și modulară, astfel încât putem adăuga module noi, plăți online sau funcționalități avansate ulterior fără a reface site-ul de la zero.",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "Ce avans se percepe și cum se realizează plata?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Structura standard este de 30% avans la semnarea contractului și demararea lucrărilor, iar restul de 70% se achită doar la finalizare, după testare și aprobare completă, pe baza facturii fiscale.",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "Ce se întâmplă dacă am nevoie de mici modificări după lansare?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sunt incluse două runde complete de revizii înainte de lansare. După lansare, oferim asistență tehnică pentru remedierea oricăror erori neprevăzute.",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "De ce un magazin online costă mai mult decât un site de prezentare?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Un magazin online implică catalog de produse cu variații, procesatori de plăți cu cardul (Stripe, Netopia), generare automată AWB pentru curieri, facturare automată și securitate extinsă.",
-        },
-      },
-      {
-        "@type": "Question",
-        "name": "Oferiți contract și factură fiscală pentru serviciile prestate?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Da, fără excepție. Toate colaborările RoGrowth se desfășoară legal pe baza unui contract de prestări servicii cu drepturi de proprietate 100% și factură fiscală.",
-        },
-      },
-    ],
-  };
-
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -170,7 +108,7 @@ export default function PretCreareSiteWebPage() {
       "name": "România",
     },
     "description":
-      "Servicii transparente de dezvoltare web, site-uri de prezentare, lead generation și magazine online în România, cu proprietate 100% și prețuri fixe agrate.",
+      "Servicii transparente de dezvoltare web, site-uri de prezentare, lead generation și magazine online în România, cu proprietate 100% și prețuri fixe agreate.",
     "offers": {
       "@type": "AggregateOffer",
       "priceCurrency": "EUR",
@@ -189,10 +127,6 @@ export default function PretCreareSiteWebPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <script
         type="application/ld+json"
