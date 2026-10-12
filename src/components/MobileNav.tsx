@@ -42,26 +42,26 @@ export function MobileNav({ isScrolled = false }: MobileNavProps) {
         onClick={toggleMenu}
         aria-expanded={isOpen}
         aria-label="Deschide meniul de navigare"
-        className={`p-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-[#34d399] ${
+        className={`p-2.5 rounded-xl transition-colors focus:outline-none focus:ring-2 focus:ring-[#34d399] ${
           isScrolled
             ? "text-slate-800 hover:text-black hover:bg-slate-100"
             : "text-slate-200 hover:text-white hover:bg-white/10"
         }`}
       >
         {isOpen ? (
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M6 18L18 6M6 6l12 12" />
           </svg>
         ) : (
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         )}
       </button>
 
       {isOpen && (
         <div
-          className={`fixed inset-x-0 top-20 max-h-[calc(100vh-5rem)] overflow-y-auto backdrop-blur-xl border-b shadow-2xl p-6 transition-all duration-200 z-50 ${
+          className={`fixed inset-x-0 top-20 sm:top-24 max-h-[calc(100vh-5rem)] sm:max-h-[calc(100vh-6rem)] overflow-y-auto backdrop-blur-xl border-b shadow-2xl p-6 transition-all duration-200 z-50 ${
             isScrolled
               ? "bg-white/98 border-slate-200 text-slate-900"
               : "bg-[#060a22]/98 border-white/10 text-white"

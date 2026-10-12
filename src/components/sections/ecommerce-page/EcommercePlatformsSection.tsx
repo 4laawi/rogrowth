@@ -42,15 +42,18 @@ export function EcommercePlatformsSection() {
   ];
 
   return (
-    <section className="py-20 lg:py-24 bg-[#F8FAFC] border-t border-slate-200/60" id="platforme-ecommerce">
+    <section className="pt-28 sm:pt-36 lg:pt-48 xl:pt-52 pb-20 lg:pb-24 bg-[#F8FAFC]" id="platforme-ecommerce">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Ce platformă e potrivită pentru tine?
+        <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            PLATFORME E-COMMERCE • ALEGERE STRATEGICĂ
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Ce platformă este <span className="text-[#10b981]">potrivită pentru tine?</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
-            Alegem împreună soluția care se potrivește afacerii tale.
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
+            Alegem împreună soluția optimă pentru modelul tău de business: Shopify, WooCommerce sau dezvoltare custom pe Next.js.
           </p>
         </div>
 
@@ -74,7 +77,7 @@ export function EcommercePlatformsSection() {
                 </div>
 
                 {/* Platform Name */}
-                <h3 className="text-2xl font-semibold text-[#0F172A] tracking-tight font-poppins">
+                <h3 className="text-2xl font-bold text-[#150773] tracking-tight font-poppins">
                   {platform.name}
                 </h3>
 
@@ -118,11 +121,11 @@ export function EcommercePlatformsSection() {
 
         {/* Bottom CTA */}
         <div className="mt-12 text-center">
-          <p className="text-base text-[#0F172A] font-sans">
+          <p className="text-base text-slate-700 font-sans">
             Nu ești sigur?{" "}
             <Link
-              href="#contact-rapid"
-              className="text-[#0F172A] hover:text-emerald-700 underline underline-offset-4 decoration-slate-400 hover:decoration-emerald-600 transition-colors font-medium"
+              href="#solicita-oferta"
+              className="text-[#150773] hover:text-emerald-700 underline underline-offset-4 decoration-slate-300 hover:decoration-emerald-600 transition-colors font-semibold"
             >
               Hai să discutăm gratuit →
             </Link>

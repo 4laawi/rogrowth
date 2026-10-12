@@ -30,11 +30,14 @@ export function EcommerceSeoSection() {
     <section className="py-20 lg:py-24 bg-white border-t border-slate-200/60" id="seo-ecommerce">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Fundație tehnică SEO inclusă la lansare
+        <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            VIZIBILITATE ORGANICĂ • CATALOG OPTIMIZAT
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Fundație tehnică SEO inclusă <span className="text-[#10b981]">la lansarea magazinului</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
             Construim magazinul cu o structură curată și semantică, gata de indexare organică în Google încă din prima zi.
           </p>
         </div>
@@ -58,7 +61,7 @@ export function EcommerceSeoSection() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
-                  <h3 className="text-base font-semibold text-[#0F172A] font-poppins">
+                  <h3 className="text-base font-bold text-[#150773] font-poppins">
                     {point.title}
                   </h3>
                 </div>

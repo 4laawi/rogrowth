@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const SERVICE_IMG_1 = "/characters-3d/web-page.png";
-const SERVICE_IMG_2 = "/characters-3d/ecom-shop.png";
-const SERVICE_IMG_3 = "/characters-3d/fix.png";
+const SERVICE_IMG_1 = "/charcters-3d-webp/web-page.webp";
+const SERVICE_IMG_2 = "/charcters-3d-webp/ecom-shop.webp";
+const SERVICE_IMG_3 = "/charcters-3d-webp/fix.webp";
 
 export function AgencyServicesSection() {
   return (

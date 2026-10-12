@@ -32,11 +32,14 @@ export function EcommerceOwnershipSection() {
     <section className="py-20 lg:py-24 bg-[#F8FAFC] border-t border-slate-200/60" id="proprietate-magazin">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Magazinul și datele îți aparțin 100%
+        <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            LIBERTATE &amp; CONTROL TOTAL
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Magazinul și datele afacerii <span className="text-[#10b981]">îți aparțin 100%</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
             Construim active digitale independente. Nu reținem comisioane pe comenzi și nu creăm dependențe tehnice.
           </p>
         </div>
@@ -60,7 +63,7 @@ export function EcommerceOwnershipSection() {
                   />
                 </div>
 
-                <h3 className="text-lg font-semibold text-[#0F172A] font-poppins mb-2">
+                <h3 className="text-lg font-bold text-[#150773] font-poppins mb-2">
                   {item.title}
                 </h3>
                 <p className="text-sm text-[#64748B] leading-relaxed font-sans">

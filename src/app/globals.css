@@ -18,6 +18,10 @@
   --color-text-muted: #64748b;
   --color-border-subtle: #e2e8f0;
   --color-accent-amber: #f59e0b;
+
+  /* Expanded container bounds to decrease left/right side margins on desktop */
+  --container-7xl: 88rem;
+  --container-6xl: 76rem;
 }
 
 @layer base {

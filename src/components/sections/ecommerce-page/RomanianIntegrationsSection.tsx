@@ -42,12 +42,15 @@ export function RomanianIntegrationsSection() {
     <section className="py-20 lg:py-24 bg-white border-t border-slate-200/60" id="integrari-romania">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Integrări native pentru comerțul din România
+        <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            ECOSISTEM LOCAL • AUTOMATIZĂRI COMPLETE
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Integrări native pentru <span className="text-[#10b981]">comerțul din România</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
-            Automatizăm fluxul complet: de la plata online și emiterea facturii, până la generarea AWB-ului și expedierea comenzii.
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
+            Automatizăm fluxul complet: de la plata online și emiterea facturii, până la locker Easybox și expedierea comenzii.
           </p>
         </div>
 
@@ -59,7 +62,7 @@ export function RomanianIntegrationsSection() {
               className="bg-[#F8FAFC] rounded-[20px] border border-slate-200/80 p-7 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:bg-white hover:shadow-[0_12px_28px_-6px_rgba(0,0,0,0.05)] hover:border-slate-300"
             >
               <div>
-                <h3 className="text-xl sm:text-2xl font-semibold text-[#0F172A] tracking-tight font-poppins">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#150773] tracking-tight font-poppins">
                   {cat.category}
                 </h3>
                 <p className="mt-1 text-sm text-[#64748B] font-sans">
@@ -71,7 +74,7 @@ export function RomanianIntegrationsSection() {
                 <div className="space-y-4">
                   {cat.partners.map((partner, pIdx) => (
                     <div key={pIdx} className="flex flex-col gap-0.5">
-                      <p className="text-sm font-semibold text-[#0F172A] font-poppins flex items-center gap-2">
+                      <p className="text-sm font-semibold text-[#150773] font-poppins flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
                         {partner.name}
                       </p>

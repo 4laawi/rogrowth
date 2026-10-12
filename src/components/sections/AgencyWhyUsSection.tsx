@@ -3,7 +3,7 @@ import Image from "next/image";
 export function AgencyWhyUsSection() {
   return (
     <section
-      className="w-full py-20 lg:py-28 bg-white border-t border-slate-100"
+      className="w-full pt-28 sm:pt-36 lg:pt-48 xl:pt-52 pb-20 lg:pb-28 bg-white"
       id="de-ce-rogrowth"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,7 +32,7 @@ export function AgencyWhyUsSection() {
             <div className="lg:col-span-5 flex justify-center order-1">
               <div className="relative w-full max-w-[380px] sm:max-w-[420px] lg:max-w-none flex items-center justify-center">
                 <Image
-                  src="/characters-3d/gather-working-design-planning.png"
+                  src="/charcters-3d-webp/gather-working-design-planning.webp"
                   alt="Echipa RoGrowth planifică proiectul cu responsabilitate"
                   width={520}
                   height={650}
@@ -186,7 +186,7 @@ export function AgencyWhyUsSection() {
             <div className="lg:col-span-5 flex justify-center order-1 lg:order-2">
               <div className="relative w-full max-w-[380px] sm:max-w-[420px] lg:max-w-none flex items-center justify-center">
                 <Image
-                  src="/characters-3d/person-calendar.png"
+                  src="/charcters-3d-webp/person-calendar.webp"
                   alt="Calendar și livrare la timp a proiectelor RoGrowth"
                   width={520}
                   height={650}
@@ -205,7 +205,7 @@ export function AgencyWhyUsSection() {
             <div className="lg:col-span-5 flex justify-center order-1">
               <div className="relative w-full max-w-[380px] sm:max-w-[420px] lg:max-w-none flex items-center justify-center">
                 <Image
-                  src="/characters-3d/growth-up.png"
+                  src="/charcters-3d-webp/growth-up.webp"
                   alt="Consultanță strategică și creștere digitală RoGrowth"
                   width={520}
                   height={650}

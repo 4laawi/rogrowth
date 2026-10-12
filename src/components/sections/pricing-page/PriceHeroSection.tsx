@@ -93,7 +93,7 @@ export function PriceHeroSection() {
           <div className="lg:col-span-5 flex justify-center lg:justify-end items-end">
             <div className="relative z-30 w-full max-w-[300px] sm:max-w-[360px] md:max-w-[400px] lg:max-w-[440px] xl:max-w-[490px] flex justify-center lg:justify-end lg:translate-y-10 xl:translate-y-14 lg:-mb-10 xl:-mb-14">
               <Image
-                src="/characters-3d/growth.png"
+                src="/charcters-3d-webp/growth.webp"
                 alt="Specialist RoGrowth - Analiză prețuri și rentabilitate investiție site web"
                 width={490}
                 height={612}

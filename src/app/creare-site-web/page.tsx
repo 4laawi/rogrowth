@@ -3,6 +3,7 @@ import { WebHeroSection } from "@/components/sections/WebHeroSection";
 import { WebServicesDetailSection } from "@/components/sections/WebServicesDetailSection";
 import { PortfolioSection } from "@/components/sections/PortfolioSection";
 import { WhyRoGrowthSection } from "@/components/sections/WhyRoGrowthSection";
+import { WebCollaborationSection } from "@/components/sections/WebCollaborationSection";
 import { ProcessSection } from "@/components/sections/ProcessSection";
 import { PricingSection } from "@/components/sections/PricingSection";
 import { CompactTechSection } from "@/components/sections/CompactTechSection";
@@ -87,16 +88,19 @@ export default function CreareSiteWebPage() {
       {/* 1. Dedicated Website Creation Hero (Concise & Conversion-Focused) */}
       <WebHeroSection />
 
-      {/* 2. Scannable Website Types (6 Options, 15-20s scan) */}
+      {/* 2. How Working With Us Feels (3D Characters, Delivery Standards & Predictable Process) */}
+      <WebCollaborationSection />
+
+      {/* 3. Scannable Website Types (6 Options, 15-20s scan) */}
       <WebServicesDetailSection />
 
-      {/* 3. Selected Portfolio & Visual Proof (Promoted Above Tech) */}
+      {/* 4. Selected Portfolio & Visual Proof (Promoted Above Tech) */}
       <PortfolioSection />
 
-      {/* 4. Why RoGrowth (4 Clear Differentiator Pillars) */}
+      {/* 5. Why RoGrowth (4 Clear Differentiator Pillars) */}
       <WhyRoGrowthSection />
 
-      {/* 5. 4-Step Transparent Process & Timeline */}
+      {/* 6. 4-Step Transparent Process & Timeline */}
       <ProcessSection />
 
       {/* 6. Pricing Packages (€300-€400, €700-€1,200, €1,000-€2,300+) & Payment Clarity */}

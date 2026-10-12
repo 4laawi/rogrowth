@@ -26,11 +26,14 @@ export function EcommerceProcessSection() {
     <section className="py-20 lg:py-24 bg-[#F8FAFC] border-t border-slate-200/60" id="proces-dezvoltare">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Lansarea magazinului în 4 pași simpli
+        <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            METODOLOGIE DE LUCRU • ETAPE CLARE
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Lansarea magazinului online în <span className="text-[#10b981]">4 pași simpli</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
             Un proces predictibil și transparent, fără termene depășite sau surprize tehnice.
           </p>
         </div>
@@ -46,7 +49,7 @@ export function EcommerceProcessSection() {
                 <span className="text-xs font-mono font-semibold tracking-wider text-emerald-600 block mb-4">
                   {item.step}
                 </span>
-                <h3 className="text-lg font-semibold text-[#0F172A] font-poppins mb-2 leading-snug">
+                <h3 className="text-lg font-bold text-[#150773] font-poppins mb-2 leading-snug">
                   {item.title}
                 </h3>
                 <p className="text-sm text-[#64748B] leading-relaxed font-sans">

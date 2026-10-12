@@ -56,11 +56,14 @@ export function EcommercePricingSection() {
     <section className="py-20 lg:py-24 bg-white border-t border-slate-200/60" id="pachete-preturi">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Pachete transparente de dezvoltare
+        <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            TRANSPARENȚĂ FINANCIARĂ • COSTURI FIXE
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Pachete transparente și <span className="text-[#10b981]">costuri clare de dezvoltare</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
             Costuri clare agreate ferm înainte de proiect. Fără taxe ascunse și fără comisioane reținute pe vânzări.
           </p>
         </div>
@@ -78,7 +81,7 @@ export function EcommercePricingSection() {
             >
               <div>
                 <div className="flex items-center justify-between gap-2 mb-2">
-                  <h3 className="text-xl sm:text-2xl font-semibold text-[#0F172A] font-poppins">
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#150773] font-poppins">
                     {tier.name}
                   </h3>
                   {tier.popular && (
@@ -89,7 +92,7 @@ export function EcommercePricingSection() {
                 </div>
 
                 <div className="my-4">
-                  <span className="text-3xl sm:text-4xl font-bold text-[#0F172A] font-poppins tracking-tight">
+                  <span className="text-3xl sm:text-4xl font-extrabold text-[#150773] font-poppins tracking-tight">
                     {tier.priceRange}
                   </span>
                   <p className="text-xs text-[#64748B] font-sans mt-1">
@@ -125,10 +128,10 @@ export function EcommercePricingSection() {
               <div>
                 <Link
                   href={tier.ctaHref}
-                  className={`w-full inline-flex items-center justify-center px-6 py-3.5 rounded-full font-medium text-sm sm:text-base transition-all active:scale-95 ${
+                  className={`w-full inline-flex items-center justify-center px-6 py-3.5 rounded-full font-bold text-sm sm:text-base transition-all active:scale-95 ${
                     tier.popular
-                      ? "bg-[#0F172A] hover:bg-[#1E293B] text-white"
-                      : "bg-slate-100 hover:bg-slate-200 text-[#0F172A]"
+                      ? "bg-[#150773] hover:bg-[#0d093e] text-white shadow-md hover:shadow-lg"
+                      : "bg-slate-100 hover:bg-slate-200 text-[#150773]"
                   }`}
                 >
                   {tier.ctaText}
@@ -146,12 +149,12 @@ export function EcommercePricingSection() {
               <p className="text-xs sm:text-sm text-[#64748B] font-sans mt-1">La demararea oficială a proiectului</p>
             </div>
             <div className="pt-4 md:pt-0 md:px-4">
-              <p className="text-xl font-bold text-[#0F172A] font-poppins">70% la Lansare</p>
-              <p className="text-xs sm:text-sm text-[#64748B] font-sans mt-1">După testare completă și aprobarea ta</p>
+              <p className="text-xl font-bold text-[#150773] font-poppins">70% la Lansare</p>
+              <p className="text-xs sm:text-sm text-slate-600 font-sans mt-1">După testare completă și aprobarea ta</p>
             </div>
             <div className="pt-4 md:pt-0 md:pl-4">
-              <p className="text-xl font-bold text-[#0F172A] font-poppins">Factură Fiscală</p>
-              <p className="text-xs sm:text-sm text-[#64748B] font-sans mt-1">Contract legal cu predare 100% accesuri</p>
+              <p className="text-xl font-bold text-[#150773] font-poppins">Factură Fiscală</p>
+              <p className="text-xs sm:text-sm text-slate-600 font-sans mt-1">Contract legal cu predare 100% accesuri</p>
             </div>
           </div>
         </div>

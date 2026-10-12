@@ -42,12 +42,15 @@ export function EcommerceFeaturesSection() {
     <section className="py-20 lg:py-24 bg-[#F8FAFC] border-t border-slate-200/60" id="functionalitati-conversie">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Funcționalități native construite pentru conversie
+        <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            EXPERIENȚĂ DE CUMPĂRARE • OPTIMIZAT PE MOBIL
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#150773] tracking-tight font-poppins">
+            Funcționalități native construite pentru <span className="text-[#10b981]">vânzări și conversie</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
-            Fiecare element din interfață este gândit să elimine fricțiunea și să transforme vizitatorii în cumpărători.
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
+            Fiecare element din interfață este conceput să elimine fricțiunea și să transforme vizitatorii în clienți fideli.
           </p>
         </div>
 
@@ -63,7 +66,7 @@ export function EcommerceFeaturesSection() {
                   {feat.number}
                 </span>
 
-                <h3 className="text-lg sm:text-xl font-semibold text-[#0F172A] font-poppins mb-2 tracking-tight">
+                <h3 className="text-lg sm:text-xl font-bold text-[#150773] font-poppins mb-2 tracking-tight">
                   {feat.title}
                 </h3>
 

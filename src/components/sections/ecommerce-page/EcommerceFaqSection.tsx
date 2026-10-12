@@ -55,11 +55,15 @@ export function EcommerceFaqSection() {
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12 sm:mb-14">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F172A] tracking-tight font-poppins">
-            Întrebări frecvente
+        <div className="text-center mb-14 sm:mb-16">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-[#5243aa] uppercase mb-3 block font-poppins">
+            RĂSPUNSURI PRACTICE • DETALII IMPORTANTE
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-[40px] leading-tight lg:leading-[48px] font-extrabold text-[#150773] tracking-tight font-poppins">
+            Întrebări frecvente despre{" "}
+            <span className="text-[#10b981]">crearea magazinului online</span>
           </h2>
-          <p className="mt-3 text-base sm:text-lg text-[#64748B] font-sans">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed font-sans">
             Răspunsuri directe la cele mai importante întrebări despre lansarea magazinului tău online.
           </p>
         </div>
@@ -71,7 +75,7 @@ export function EcommerceFaqSection() {
               key={index}
               className="group rounded-[16px] bg-[#F8FAFC] border border-slate-200/80 p-5 sm:p-6 transition-all duration-200 open:bg-white open:shadow-[0_12px_28px_-6px_rgba(0,0,0,0.05)] open:border-slate-300"
             >
-              <summary className="flex items-center justify-between gap-4 font-semibold text-base sm:text-[17px] text-[#0F172A] cursor-pointer list-none select-none font-poppins">
+              <summary className="flex items-center justify-between gap-4 font-semibold text-base sm:text-[17px] text-[#150773] cursor-pointer list-none select-none font-poppins">
                 <span>{faq.q}</span>
                 <span className="shrink-0 w-7 h-7 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-emerald-700 transition-transform">
                   <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
