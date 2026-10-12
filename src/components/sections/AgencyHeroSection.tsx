@@ -7,18 +7,8 @@ export function AgencyHeroSection() {
       id="hero-section"
       className="relative w-full pt-20 sm:pt-28 lg:pt-32 pb-8 sm:pb-10 lg:pb-12 bg-[#0d093e] z-20"
     >
-      {/* Background Container with /bg-heroo.png and royal indigo overlay color effect */}
+      {/* Background ambient lighting and depth effects */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <Image
-          src="/bg-heroo.png"
-          alt="RoGrowth Digital Agency Background"
-          fill
-          priority
-          className="object-cover object-center sm:object-[center_35%] opacity-35 mix-blend-luminosity"
-        />
-        {/* Royal indigo overlay ensuring text readability and clean screenshot-inspired tone */}
-        <div className="absolute inset-0 bg-[#0d093e]/85" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0d093e] via-[#0d093e]/90 to-[#0d093e]/60" />
 
         {/* Soft royal sapphire/violet ambient bloom behind character */}
         <div
@@ -85,14 +75,20 @@ export function AgencyHeroSection() {
           {/* Right Column: 3D character hanging across the hero edge onto white section below */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end items-end">
             <div className="relative z-30 w-full max-w-[240px] sm:max-w-[320px] md:max-w-[370px] lg:max-w-[420px] xl:max-w-[460px] flex justify-center lg:justify-end translate-y-6 sm:translate-y-8 lg:translate-y-20 xl:translate-y-24 -mb-6 sm:-mb-8 lg:-mb-20 xl:-mb-24">
-              <Image
-                src="/charcters-3d-webp/launch(rocket&person).webp"
-                alt="Specialist RoGrowth - Soluții digitale pentru afaceri din România"
-                width={460}
-                height={575}
-                priority
-                className="relative z-30 w-full h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-[1.01]"
-              />
+              <picture className="w-full flex justify-center lg:justify-end">
+                <source
+                  media="(max-width: 639px)"
+                  srcSet="/charcters-3d-webp/launch(rocket&person)mobile.webp"
+                />
+                <Image
+                  src="/charcters-3d-webp/launch(rocket&person).webp"
+                  alt="Specialist RoGrowth - Soluții digitale pentru afaceri din România"
+                  width={460}
+                  height={575}
+                  priority
+                  className="relative z-30 w-full h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-[1.01]"
+                />
+              </picture>
             </div>
           </div>
         </div>

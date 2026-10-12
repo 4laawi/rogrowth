@@ -31,14 +31,19 @@ export function AgencyWhyUsSection() {
             {/* Visual Column */}
             <div className="lg:col-span-5 flex justify-center order-1">
               <div className="relative w-full max-w-[300px] sm:max-w-[380px] lg:max-w-none flex items-center justify-center">
-                <Image
-                  src="/charcters-3d-webp/gather-working-design-planning.webp"
-                  alt="Echipa RoGrowth planifică proiectul cu responsabilitate"
-                  width={520}
-                  height={650}
-                  priority
-                  className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
-                />
+                <picture className="w-full flex items-center justify-center">
+                  <source
+                    media="(max-width: 639px)"
+                    srcSet="/charcters-3d-webp/gather-working-design-planning(mobile).webp"
+                  />
+                  <Image
+                    src="/charcters-3d-webp/gather-working-design-planning.webp"
+                    alt="Echipa RoGrowth planifică proiectul cu responsabilitate"
+                    width={520}
+                    height={650}
+                    className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
+                  />
+                </picture>
               </div>
             </div>
 
@@ -204,13 +209,19 @@ export function AgencyWhyUsSection() {
             {/* Visual Column */}
             <div className="lg:col-span-5 flex justify-center order-1">
               <div className="relative w-full max-w-[300px] sm:max-w-[380px] lg:max-w-none flex items-center justify-center">
-                <Image
-                  src="/charcters-3d-webp/growth-up.webp"
-                  alt="Consultanță strategică și creștere digitală RoGrowth"
-                  width={520}
-                  height={650}
-                  className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
-                />
+                <picture className="w-full flex items-center justify-center">
+                  <source
+                    media="(max-width: 639px)"
+                    srcSet="/charcters-3d-webp/growth-up(mobile).webp"
+                  />
+                  <Image
+                    src="/charcters-3d-webp/growth-up.webp"
+                    alt="Consultanță strategică și creștere digitală RoGrowth"
+                    width={520}
+                    height={650}
+                    className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
+                  />
+                </picture>
               </div>
             </div>
 

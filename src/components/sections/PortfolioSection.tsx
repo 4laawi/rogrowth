@@ -8,6 +8,7 @@ const PORTFOLIO_CASES = [
     category: "Clinică Stomatologică & Medical",
     tech: "Next.js",
     image: "/portfolio-images/dentalcrownhealth.webp",
+    imageMobile: "/portfolio-images/dentalcrownhealth(mobile).webp",
     description:
       "Platformă medicală bilingvă pentru turism dentar, cu prezentarea transparentă a tratamentelor, structură SEO și programări online rapide.",
   },
@@ -17,6 +18,7 @@ const PORTFOLIO_CASES = [
     category: "E-Commerce & Specialty Coffee",
     tech: "WordPress / WooCommerce",
     image: "/portfolio-images/BARSITAS.webp",
+    imageMobile: "/portfolio-images/BARSITAS(mobile).webp",
     description:
       "Magazin online dedicat cafelei de specialitate și echipamentelor premium, optimizat pentru mobil cu plăți securizate și generare automată de AWB.",
   },
@@ -26,6 +28,7 @@ const PORTFOLIO_CASES = [
     category: "Închirieri Auto & Otopeni",
     tech: "WordPress",
     image: "/portfolio-images/rentdacia.webp",
+    imageMobile: "/portfolio-images/rentdacia(mobile).webp",
     description:
       "Website de rent-a-car pentru București și Aeroportul Otopeni, cu selector interactiv de autovehicule, tarife clare și rezervare rapidă.",
   },
@@ -35,6 +38,7 @@ const PORTFOLIO_CASES = [
     category: "Imobiliare & Lead Generation",
     tech: "Next.js",
     image: "/portfolio-images/kasataaa.webp",
+    imageMobile: "/portfolio-images/kasataaa(mobile).webp",
     description:
       "Portal imobiliar pentru proprietăți din București și Ilfov, cu filtrare avansată a anunțurilor și fluxuri de captare a cererilor calificate de vizionare.",
   },
@@ -78,13 +82,19 @@ export function PortfolioSection() {
             >
               {/* Screenshot: 100% visible with zero overlay badges */}
               <div className="w-full aspect-[16/10] overflow-hidden bg-slate-100 relative border-b border-slate-100">
-                <Image
-                  src={item.image}
-                  alt={`${item.title} - Website creat de RoGrowth`}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  className="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
-                />
+                <picture className="contents">
+                  <source
+                    media="(max-width: 639px)"
+                    srcSet={item.imageMobile}
+                  />
+                  <Image
+                    src={item.image}
+                    alt={`${item.title} - Website creat de RoGrowth`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  />
+                </picture>
               </div>
 
               {/* Card Body */}

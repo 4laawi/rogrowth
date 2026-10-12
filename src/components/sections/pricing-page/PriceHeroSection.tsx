@@ -7,18 +7,8 @@ export function PriceHeroSection() {
       id="hero-section"
       className="relative w-full pt-28 sm:pt-32 lg:pt-36 pb-16 sm:pb-20 lg:pb-24 bg-[#0d093e] z-20"
     >
-      {/* Background Container with /bg-heroo.png and royal indigo overlay color effect */}
+      {/* Background ambient lighting and depth effects */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <Image
-          src="/bg-heroo.png"
-          alt="Ghid Preturi Creare Site Web RoGrowth"
-          fill
-          priority
-          className="object-cover object-center sm:object-[center_35%] opacity-35 mix-blend-luminosity"
-        />
-        {/* Royal indigo overlay ensuring text readability and clean screenshot-inspired tone */}
-        <div className="absolute inset-0 bg-[#0d093e]/75 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0d093e] via-[#0d093e]/85 to-[#0d093e]/50" />
 
         {/* Soft royal sapphire/violet ambient bloom behind character */}
         <div

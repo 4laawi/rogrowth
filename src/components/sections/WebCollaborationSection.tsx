@@ -5,6 +5,7 @@ export function WebCollaborationSection() {
   const pillars = [
     {
       image: "/charcters-3d-webp/gather-working-design-planning.webp",
+      imageMobile: "/charcters-3d-webp/gather-working-design-planning(mobile).webp",
       alt: "Echipa RoGrowth planifică proiectul web cu responsabilitate",
       title: "Ne îndeplinim angajamentele până la capăt",
       description:
@@ -19,6 +20,7 @@ export function WebCollaborationSection() {
     },
     {
       image: "/charcters-3d-webp/growth-up.webp",
+      imageMobile: "/charcters-3d-webp/growth-up(mobile).webp",
       alt: "Soluții de design web, optimizare SEO și conversie digitală",
       title: "Venim cu idei orientate spre vânzări & SEO",
       description:
@@ -68,13 +70,29 @@ export function WebCollaborationSection() {
             <div key={index} className="flex flex-col items-center text-center group">
               {/* 3D Character standing cleanly on canvas */}
               <div className="relative h-56 sm:h-64 lg:h-72 w-full flex items-end justify-center mb-6">
-                <Image
-                  src={item.image}
-                  alt={item.alt}
-                  width={460}
-                  height={500}
-                  className="max-h-full w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
-                />
+                {item.imageMobile ? (
+                  <picture className="w-full flex items-end justify-center">
+                    <source
+                      media="(max-width: 639px)"
+                      srcSet={item.imageMobile}
+                    />
+                    <Image
+                      src={item.image}
+                      alt={item.alt}
+                      width={460}
+                      height={500}
+                      className="max-h-full w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
+                    />
+                  </picture>
+                ) : (
+                  <Image
+                    src={item.image}
+                    alt={item.alt}
+                    width={460}
+                    height={500}
+                    className="max-h-full w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
+                  />
+                )}
               </div>
 
               {/* Title & Body */}
