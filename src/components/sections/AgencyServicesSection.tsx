@@ -27,13 +27,13 @@ export function AgencyServicesSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 mb-10 sm:mb-14">
           {/* Format 1 */}
           <div className="flex flex-col items-center text-center group bg-white p-6 sm:p-8 rounded-2xl sm:rounded-[28px] border border-slate-100 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.04)] hover:border-emerald-200 hover:shadow-lg transition-all">
-            <div className="w-full h-40 sm:h-48 flex items-end justify-center mb-4 sm:mb-6">
+            <div className="w-full h-48 sm:h-52 flex items-end justify-center mb-4 sm:mb-6">
               <Image
                 src={SERVICE_IMG_1}
                 alt="Site de prezentare profesional"
-                width={220}
-                height={220}
-                className="max-h-36 sm:max-h-44 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                width={260}
+                height={260}
+                className="max-h-[175px] sm:max-h-[195px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-[#150773] mb-2 sm:mb-3 font-poppins">
@@ -52,13 +52,13 @@ export function AgencyServicesSection() {
 
           {/* Format 2 */}
           <div className="flex flex-col items-center text-center group bg-white p-6 sm:p-8 rounded-2xl sm:rounded-[28px] border border-slate-100 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.04)] hover:border-emerald-200 hover:shadow-lg transition-all">
-            <div className="w-full h-40 sm:h-48 flex items-end justify-center mb-4 sm:mb-6">
+            <div className="w-full h-48 sm:h-52 flex items-end justify-center mb-4 sm:mb-6">
               <Image
                 src={SERVICE_IMG_2}
                 alt="Magazin online e-commerce"
-                width={220}
-                height={220}
-                className="max-h-36 sm:max-h-44 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                width={260}
+                height={260}
+                className="max-h-[175px] sm:max-h-[195px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-[#150773] mb-2 sm:mb-3 font-poppins">
@@ -77,13 +77,13 @@ export function AgencyServicesSection() {
 
           {/* Format 3 */}
           <div className="flex flex-col items-center text-center group bg-white p-6 sm:p-8 rounded-2xl sm:rounded-[28px] border border-slate-100 shadow-[0_4px_25px_-5px_rgba(0,0,0,0.04)] hover:border-emerald-200 hover:shadow-lg transition-all">
-            <div className="w-full h-40 sm:h-48 flex items-end justify-center mb-4 sm:mb-6">
+            <div className="w-full h-48 sm:h-52 flex items-end justify-center mb-4 sm:mb-6">
               <Image
                 src={SERVICE_IMG_3}
                 alt="Sisteme Web & Mentenanță"
-                width={220}
-                height={220}
-                className="max-h-36 sm:max-h-44 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                width={260}
+                height={260}
+                className="max-h-[175px] sm:max-h-[195px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-[#150773] mb-2 sm:mb-3 font-poppins">

@@ -3,7 +3,7 @@ import Image from "next/image";
 export function AgencyWhyUsSection() {
   return (
     <section
-      className="w-full pt-28 sm:pt-36 lg:pt-48 xl:pt-52 pb-20 lg:pb-28 bg-white"
+      className="w-full pt-44 sm:pt-48 lg:pt-48 xl:pt-52 pb-20 lg:pb-28 bg-white"
       id="de-ce-rogrowth"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,7 +30,7 @@ export function AgencyWhyUsSection() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-16 items-center">
             {/* Visual Column */}
             <div className="lg:col-span-5 flex justify-center order-1">
-              <div className="relative w-full max-w-[300px] sm:max-w-[380px] lg:max-w-none flex items-center justify-center">
+              <div className="relative w-full max-w-[340px] sm:max-w-[400px] lg:max-w-none flex items-center justify-center">
                 <picture className="w-full flex items-center justify-center">
                   <source
                     media="(max-width: 639px)"
@@ -41,7 +41,7 @@ export function AgencyWhyUsSection() {
                     alt="Echipa RoGrowth planifică proiectul cu responsabilitate"
                     width={520}
                     height={650}
-                    className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
+                    className="w-full max-h-[290px] sm:max-h-[350px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
                   />
                 </picture>
               </div>
@@ -189,13 +189,13 @@ export function AgencyWhyUsSection() {
 
             {/* Visual Column */}
             <div className="lg:col-span-5 flex justify-center order-1 lg:order-2">
-              <div className="relative w-full max-w-[300px] sm:max-w-[380px] lg:max-w-none flex items-center justify-center">
+              <div className="relative w-full max-w-[340px] sm:max-w-[400px] lg:max-w-none flex items-center justify-center">
                 <Image
                   src="/charcters-3d-webp/person-calendar.webp"
                   alt="Calendar și livrare la timp a proiectelor RoGrowth"
                   width={520}
                   height={650}
-                  className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
+                  className="w-full max-h-[290px] sm:max-h-[350px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
                 />
               </div>
             </div>
@@ -208,7 +208,7 @@ export function AgencyWhyUsSection() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-16 items-center">
             {/* Visual Column */}
             <div className="lg:col-span-5 flex justify-center order-1">
-              <div className="relative w-full max-w-[300px] sm:max-w-[380px] lg:max-w-none flex items-center justify-center">
+              <div className="relative w-full max-w-[340px] sm:max-w-[400px] lg:max-w-none flex items-center justify-center">
                 <picture className="w-full flex items-center justify-center">
                   <source
                     media="(max-width: 639px)"
@@ -219,7 +219,7 @@ export function AgencyWhyUsSection() {
                     alt="Consultanță strategică și creștere digitală RoGrowth"
                     width={520}
                     height={650}
-                    className="w-full max-h-[220px] sm:max-h-[320px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
+                    className="w-full max-h-[290px] sm:max-h-[350px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
                   />
                 </picture>
               </div>
