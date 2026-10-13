@@ -75,20 +75,15 @@ export function AgencyHeroSection() {
           {/* Right Column: 3D character hanging across the hero edge onto white section below */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end items-end">
             <div className="relative z-30 w-full max-w-[285px] sm:max-w-[340px] md:max-w-[380px] lg:max-w-[420px] xl:max-w-[460px] flex justify-center lg:justify-end translate-y-2 sm:translate-y-4 lg:translate-y-20 xl:translate-y-24 -mb-32 sm:-mb-36 lg:-mb-20 xl:-mb-24">
-              <picture className="w-full flex justify-center lg:justify-end">
-                <source
-                  media="(max-width: 639px)"
-                  srcSet="/charcters-3d-webp/launch(rocket&person)mobile.webp"
-                />
-                <Image
-                  src="/charcters-3d-webp/launch(rocket&person).webp"
-                  alt="Specialist RoGrowth - Soluții digitale pentru afaceri din România"
-                  width={460}
-                  height={575}
-                  priority
-                  className="relative z-30 w-full h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-[1.01]"
-                />
-              </picture>
+              <Image
+                src="/charcters-3d-webp/launch(rocket&person).webp"
+                alt="Specialist RoGrowth - Soluții digitale pentru afaceri din România"
+                width={460}
+                height={575}
+                sizes="(max-width: 640px) 285px, (max-width: 1024px) 380px, 460px"
+                priority
+                className="relative z-30 w-full h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-[1.01]"
+              />
             </div>
           </div>
         </div>

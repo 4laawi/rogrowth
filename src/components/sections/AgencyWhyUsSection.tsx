@@ -195,6 +195,7 @@ export function AgencyWhyUsSection() {
                   alt="Calendar și livrare la timp a proiectelor RoGrowth"
                   width={520}
                   height={650}
+                  sizes="(max-width: 640px) 340px, (max-width: 1024px) 400px, 520px"
                   className="w-full max-h-[290px] sm:max-h-[350px] lg:max-h-[460px] object-contain drop-shadow-[0_20px_35px_rgba(21,7,115,0.08)] transition-transform duration-500 hover:scale-[1.02]"
                 />
               </div>

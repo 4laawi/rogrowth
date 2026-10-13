@@ -33,6 +33,7 @@ export function AgencyServicesSection() {
                 alt="Site de prezentare profesional"
                 width={260}
                 height={260}
+                sizes="260px"
                 className="max-h-[175px] sm:max-h-[195px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
@@ -58,6 +59,7 @@ export function AgencyServicesSection() {
                 alt="Magazin online e-commerce"
                 width={260}
                 height={260}
+                sizes="260px"
                 className="max-h-[175px] sm:max-h-[195px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
@@ -83,6 +85,7 @@ export function AgencyServicesSection() {
                 alt="Sisteme Web & Mentenanță"
                 width={260}
                 height={260}
+                sizes="260px"
                 className="max-h-[175px] sm:max-h-[195px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>

@@ -81,6 +81,7 @@ export function WebHeroSection() {
                 alt="Echipă specialiști RoGrowth - Creare site web profesional și scalabil"
                 width={460}
                 height={575}
+                sizes="(max-width: 640px) 285px, (max-width: 1024px) 380px, 460px"
                 priority
                 className="relative z-30 w-full h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] transition-transform duration-300 hover:scale-[1.01]"
               />
