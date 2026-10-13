@@ -10,12 +10,14 @@ const poppins = Poppins({
   subsets: ["latin", "latin-ext"],
   display: "swap",
   weight: ["600", "800"],
+  preload: false,
 });
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
   subsets: ["latin", "latin-ext"],
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
