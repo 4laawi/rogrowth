@@ -92,7 +92,7 @@ export function WebServicesDetailSection() {
           {websiteTypes.map((type) => (
             <div
               key={type.id}
-              className="group bg-slate-50/70 hover:bg-white rounded-2xl p-7 transition-all duration-200 ease-out border border-slate-200/80 hover:border-emerald-300 hover:shadow-md flex flex-col justify-between"
+              className="group bg-slate-50/70 hover:bg-white rounded-2xl p-6 sm:p-7 transition-all duration-200 ease-out border border-slate-200/80 hover:border-emerald-300 hover:shadow-md flex flex-col justify-between"
             >
               <div>
                 {/* 3D Icon */}
@@ -128,7 +128,7 @@ export function WebServicesDetailSection() {
               <div className="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between">
                 <Link
                   href="#contact-rapid"
-                  className="text-xs sm:text-sm font-semibold text-[#150773] group-hover:text-emerald-700 transition-colors inline-flex items-center gap-1.5"
+                  className="text-xs sm:text-sm font-semibold text-[#150773] group-hover:text-emerald-700 transition-colors inline-flex items-center gap-1.5 min-h-[44px] py-1.5"
                 >
                   <span>Cere detalii &amp; ofertă</span>
                   <span aria-hidden="true" className="group-hover:translate-x-0.5 transition-transform">→</span>

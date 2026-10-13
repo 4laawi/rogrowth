@@ -52,7 +52,7 @@ export function WebCollaborationSection() {
   ];
 
   return (
-    <section className="w-full pt-28 sm:pt-36 lg:pt-48 xl:pt-52 pb-20 lg:pb-28 bg-white" id="cum-lucram">
+    <section className="w-full pt-48 sm:pt-52 lg:pt-48 xl:pt-52 pb-20 lg:pb-28 bg-white" id="cum-lucram">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16 lg:mb-20">
@@ -69,9 +69,9 @@ export function WebCollaborationSection() {
           {pillars.map((item, index) => (
             <div key={index} className="flex flex-col items-center text-center group">
               {/* 3D Character standing cleanly on canvas */}
-              <div className="relative h-56 sm:h-64 lg:h-72 w-full flex items-end justify-center mb-6">
+              <div className="relative h-64 sm:h-64 lg:h-72 w-full flex items-end justify-center mb-6">
                 {item.imageMobile ? (
-                  <picture className="w-full flex items-end justify-center">
+                  <picture className="w-full h-full flex items-end justify-center">
                     <source
                       media="(max-width: 639px)"
                       srcSet={item.imageMobile}
@@ -81,7 +81,7 @@ export function WebCollaborationSection() {
                       alt={item.alt}
                       width={460}
                       height={500}
-                      className="max-h-full w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
+                      className="max-h-full max-w-[340px] sm:max-w-[400px] w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
                     />
                   </picture>
                 ) : (
@@ -90,7 +90,7 @@ export function WebCollaborationSection() {
                     alt={item.alt}
                     width={460}
                     height={500}
-                    className="max-h-full w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
+                    className="max-h-full max-w-[340px] sm:max-w-[400px] w-auto object-contain transition-transform duration-300 ease-out group-hover:scale-105 drop-shadow-[0_15px_30px_rgba(21,7,115,0.07)]"
                   />
                 )}
               </div>

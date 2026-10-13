@@ -66,7 +66,7 @@ export function PriceOverviewTableSection() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-white border-t border-slate-100" id="tabel-comparativ">
+    <section className="pt-48 sm:pt-52 lg:pt-48 xl:pt-52 pb-20 lg:pb-28 bg-white" id="tabel-comparativ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Executive Direct Answer Card */}
         <div className="p-6 sm:p-8 rounded-3xl bg-slate-900 text-white border border-slate-800 shadow-xl mb-16 relative overflow-hidden">

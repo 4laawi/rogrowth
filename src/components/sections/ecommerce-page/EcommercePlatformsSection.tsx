@@ -42,7 +42,7 @@ export function EcommercePlatformsSection() {
   ];
 
   return (
-    <section className="pt-28 sm:pt-36 lg:pt-48 xl:pt-52 pb-20 lg:pb-24 bg-[#F8FAFC]" id="platforme-ecommerce">
+    <section className="pt-52 sm:pt-56 lg:pt-48 xl:pt-52 pb-20 lg:pb-24 bg-[#F8FAFC]" id="platforme-ecommerce">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-14 sm:mb-16">
